@@ -32,7 +32,7 @@ public class Base_test implements Framework_const1
 	}
 	@AfterMethod
 	public void closeAppln(ITestResult res) throws IOException
-	{ 
+	{ //takescreenshot if tc failed
 		if(ITestResult.FAILURE==res.getStatus())
 			Generic_screenshot.getphoto(driver);
 		driver.close();
