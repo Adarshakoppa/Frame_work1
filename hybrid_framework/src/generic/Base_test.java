@@ -26,6 +26,7 @@ public class Base_test implements Framework_const1
 		//to get to webpage
 		driver.get(base_url);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//fhccfhcfgcfg
 		driver.manage().window().maximize();
 		
 	}
